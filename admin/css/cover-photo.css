@@ -1,0 +1,133 @@
+/* Desktop Layout */
+.desktop-layout {
+    display: none;
+}
+
+.cover {
+    position: relative;
+    max-height: 350px;
+    margin-bottom: 70px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.cover-photo-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative; 
+    overflow: hidden;
+}
+
+.profile-section {
+    position: absolute;
+    left: 150px;
+    bottom: -47px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-photo-container {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #d9534f;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.username-container {
+    padding-top: 45px;
+}
+
+.name {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+/* Mobile Layout */
+.mobile-layout {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.mobile-layout .cover-photo-container {
+    margin: 0;
+    border-radius: 0;
+    height: 150px;
+    z-index: 1;
+}
+
+.mobile-layout .profile-section {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.mobile-layout .profile-photo-container {
+    margin-top: -45px;
+    height: 80px;
+    width: 80px;
+    z-index: 2;
+}
+
+.mobile-layout .username-container {
+    padding-top: 0;
+}
+
+.cover-photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (max-width: 1199px) {
+    .desktop-layout {
+        display: none;
+    }
+    
+    .mobile-layout {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .desktop-layout {
+        display: block;
+    }
+    
+    .mobile-layout {
+        display: none;
+    }
+    
+    .cover {
+        padding: 0 30px;
+    }
+    
+    .profile-section {
+        left: 120px;
+    }
+}
+
+.desktop-layout,
+.mobile-layout {
+    transition: display 0.3s ease;
+}
+
+.profile-photo-container {
+    transition: all 0.3s ease;
+}

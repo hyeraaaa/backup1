@@ -1,0 +1,1317 @@
+[10-Nov-2024 04:06:02 Europe/Berlin] sendSms not set in POST.
+[10-Nov-2024 04:06:02 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[10-Nov-2024 04:06:02 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[10-Nov-2024 04:06:02 Europe/Berlin] getIdByName for course: Column course_name, Value BAC, Result: 4
+[10-Nov-2024 04:06:40 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[10-Nov-2024 04:06:40 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[10-Nov-2024 04:06:40 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[10-Nov-2024 04:06:40 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 9
+            [contact_number] => +639635242249
+        )
+
+)
+
+[10-Nov-2024 04:06:40 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 9
+            [contact_number] => +639635242249
+        )
+
+)
+
+[10-Nov-2024 04:06:42 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4312080064004335826381","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[10-Nov-2024 04:06:42 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[10-Nov-2024 04:06:42 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[10-Nov-2024 04:06:42 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[11-Nov-2024 02:26:08 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[11-Nov-2024 02:26:08 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[11-Nov-2024 02:26:09 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[11-Nov-2024 02:26:09 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 16
+            [contact_number] => +639635242249
+        )
+
+)
+
+[11-Nov-2024 02:26:09 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 16
+            [contact_number] => +639635242249
+        )
+
+)
+
+[11-Nov-2024 02:26:11 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4312883729564335660256","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[11-Nov-2024 02:26:11 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[11-Nov-2024 02:26:11 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[11-Nov-2024 02:26:11 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[13-Nov-2024 07:43:56 Europe/Berlin] sendSms not set in POST.
+[13-Nov-2024 07:43:56 Europe/Berlin] getIdByName for department: Column department_name, Value CAS, Result: 3
+[13-Nov-2024 07:45:53 Europe/Berlin] sendSms not set in POST.
+[13-Nov-2024 07:45:53 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[13-Nov-2024 07:45:53 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 
+[13-Nov-2024 07:45:54 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[13-Nov-2024 08:04:28 Europe/Berlin] sendSms not set in POST.
+[13-Nov-2024 08:04:28 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[13-Nov-2024 08:04:28 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[13-Nov-2024 08:04:28 Europe/Berlin] getIdByName for course: Column course_name, Value BSP, Result: 3
+[13-Nov-2024 08:05:12 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[13-Nov-2024 08:05:12 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[13-Nov-2024 08:05:12 Europe/Berlin] getIdByName for course: Column course_name, Value BSP, Result: 3
+[13-Nov-2024 08:05:12 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 3
+            [contact_number] => +639214733335
+        )
+
+)
+
+[13-Nov-2024 08:05:12 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 3
+            [contact_number] => +639214733335
+        )
+
+)
+
+[13-Nov-2024 08:05:15 Europe/Berlin] Sent SMS to +639214733335: {"messages":[{"messageId":"4314815142834335774055","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639214733335"}]}
+[13-Nov-2024 08:13:35 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[13-Nov-2024 08:13:35 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[13-Nov-2024 08:13:35 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[13-Nov-2024 08:13:35 Europe/Berlin] getIdByName for course: Column course_name, Value BSP, Result: 3
+[13-Nov-2024 08:13:35 Europe/Berlin] getIdByName for course: Column course_name, Value BAC, Result: 4
+[13-Nov-2024 08:13:35 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 3
+            [contact_number] => +639214733335
+        )
+
+    [1] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639635242249
+        )
+
+)
+
+[13-Nov-2024 08:13:35 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 3
+            [contact_number] => +639214733335
+        )
+
+    [1] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639635242249
+        )
+
+)
+
+[13-Nov-2024 08:13:38 Europe/Berlin] Sent SMS to +639214733335: {"messages":[{"messageId":"4314820177204335246835","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639214733335"}]}
+[13-Nov-2024 08:14:47 Europe/Berlin] sendSms not set in POST.
+[13-Nov-2024 08:14:47 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[13-Nov-2024 08:14:47 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[13-Nov-2024 08:14:47 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[13-Nov-2024 08:14:47 Europe/Berlin] getIdByName for course: Column course_name, Value BSMA, Result: 2
+[13-Nov-2024 08:14:47 Europe/Berlin] getIdByName for course: Column course_name, Value BAC, Result: 4
+[13-Nov-2024 08:15:25 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[13-Nov-2024 08:15:25 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[13-Nov-2024 08:15:25 Europe/Berlin] getIdByName for course: Column course_name, Value BAC, Result: 4
+[13-Nov-2024 08:15:25 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639635242249
+        )
+
+)
+
+[13-Nov-2024 08:15:25 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639635242249
+        )
+
+)
+
+[13-Nov-2024 08:15:27 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4314821271994335340364","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[13-Nov-2024 08:16:35 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[13-Nov-2024 08:16:35 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[13-Nov-2024 08:16:35 Europe/Berlin] getIdByName for course: Column course_name, Value BAC, Result: 4
+[13-Nov-2024 08:16:35 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639635242249
+        )
+
+)
+
+[13-Nov-2024 08:16:35 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639635242249
+        )
+
+)
+
+[13-Nov-2024 08:16:37 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4314821970694335703373","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[13-Nov-2024 08:20:28 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[13-Nov-2024 08:20:28 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[13-Nov-2024 08:20:28 Europe/Berlin] getIdByName for course: Column course_name, Value BAC, Result: 4
+[13-Nov-2024 08:20:28 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639635242249
+        )
+
+)
+
+[13-Nov-2024 08:20:28 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639635242249
+        )
+
+)
+
+[13-Nov-2024 08:20:30 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4314824301614335526451","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[13-Nov-2024 08:20:30 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[13-Nov-2024 08:20:30 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[13-Nov-2024 08:20:30 Europe/Berlin] getIdByName for course: Column course_name, Value BAC, Result: 4
+[13-Nov-2024 08:22:48 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[13-Nov-2024 08:22:48 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[13-Nov-2024 08:22:48 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[13-Nov-2024 08:22:48 Europe/Berlin] getIdByName for course: Column course_name, Value BSP, Result: 3
+[13-Nov-2024 08:22:48 Europe/Berlin] getIdByName for course: Column course_name, Value BAC, Result: 4
+[13-Nov-2024 08:22:48 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 3
+            [contact_number] => +639214733335
+        )
+
+    [1] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639635242249
+        )
+
+)
+
+[13-Nov-2024 08:22:48 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 3
+            [contact_number] => +639214733335
+        )
+
+    [1] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639635242249
+        )
+
+)
+
+[13-Nov-2024 08:22:51 Europe/Berlin] Sent SMS to +639214733335: {"messages":[{"messageId":"4314825702994335267190","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639214733335"}]}
+[13-Nov-2024 08:22:53 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4314825728954335359110","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[13-Nov-2024 08:22:53 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[13-Nov-2024 08:22:53 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[13-Nov-2024 08:22:53 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[13-Nov-2024 08:22:53 Europe/Berlin] getIdByName for course: Column course_name, Value BSP, Result: 3
+[13-Nov-2024 08:22:53 Europe/Berlin] getIdByName for course: Column course_name, Value BAC, Result: 4
+[13-Nov-2024 11:19:00 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[13-Nov-2024 11:19:00 Europe/Berlin] getIdByName for department: Column department_name, Value CAS, Result: 3
+[13-Nov-2024 11:19:00 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[13-Nov-2024 11:19:00 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 5
+            [contact_number] => +639635242249
+        )
+
+)
+
+[13-Nov-2024 11:19:00 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 5
+            [contact_number] => +639635242249
+        )
+
+)
+
+[13-Nov-2024 11:19:01 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4314931401334335458543","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[13-Nov-2024 11:19:01 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[13-Nov-2024 11:19:01 Europe/Berlin] getIdByName for department: Column department_name, Value CAS, Result: 3
+[13-Nov-2024 11:19:01 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[14-Nov-2024 14:22:47 Europe/Berlin] sendSms not set in POST.
+[14-Nov-2024 14:27:56 Europe/Berlin] sendSms not set in POST.
+[14-Nov-2024 16:22:40 Europe/Berlin] sendSms not set in POST.
+[14-Nov-2024 16:22:40 Europe/Berlin] getIdByName for department: Column department_name, Value CE, Result: 4
+[14-Nov-2024 16:23:45 Europe/Berlin] sendSms not set in POST.
+[14-Nov-2024 16:33:35 Europe/Berlin] sendSms not set in POST.
+[14-Nov-2024 16:36:22 Europe/Berlin] sendSms not set in POST.
+[14-Nov-2024 16:36:22 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[14-Nov-2024 16:36:39 Europe/Berlin] sendSms not set in POST.
+[14-Nov-2024 16:36:39 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[14-Nov-2024 17:02:33 Europe/Berlin] sendSms not set in POST.
+[14-Nov-2024 17:02:33 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[14-Nov-2024 17:02:33 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 
+[14-Nov-2024 17:02:33 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-CE, Result: 6
+[15-Nov-2024 03:09:43 Europe/Berlin] sendSms not set in POST.
+[15-Nov-2024 03:12:39 Europe/Berlin] sendSms not set in POST.
+[15-Nov-2024 04:25:10 Europe/Berlin] sendSms not set in POST.
+[15-Nov-2024 04:25:24 Europe/Berlin] sendSms not set in POST.
+[15-Nov-2024 09:08:58 Europe/Berlin] sendSms not set in POST.
+[19-Nov-2024 10:02:25 Europe/Berlin] sendSms not set in POST.
+[19-Nov-2024 17:04:43 Europe/Berlin] sendSms not set in POST.
+[19-Nov-2024 17:11:33 Europe/Berlin] sendSms not set in POST.
+[19-Nov-2024 17:11:33 Europe/Berlin] sendSms not set in POST.
+[19-Nov-2024 17:14:44 Europe/Berlin] sendSms not set in POST.
+[19-Nov-2024 17:17:38 Europe/Berlin] sendSms not set in POST.
+[19-Nov-2024 17:17:38 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[19-Nov-2024 17:17:38 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[19-Nov-2024 17:17:38 Europe/Berlin] getIdByName for course: Column course_name, Value BAC, Result: 4
+[19-Nov-2024 17:21:53 Europe/Berlin] sendSms not set in POST.
+[19-Nov-2024 17:21:53 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[19-Nov-2024 17:21:53 Europe/Berlin] getIdByName for department: Column department_name, Value CAS, Result: 3
+[19-Nov-2024 17:21:53 Europe/Berlin] getIdByName for course: Column course_name, Value BSMA, Result: 2
+[20-Nov-2024 04:40:05 Europe/Berlin] sendSms not set in POST.
+[20-Nov-2024 04:43:27 Europe/Berlin] sendSms not set in POST.
+[20-Nov-2024 04:43:27 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[20-Nov-2024 04:43:27 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[20-Nov-2024 04:43:27 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[20-Nov-2024 04:43:27 Europe/Berlin] getIdByName for department: Column department_name, Value CAS, Result: 3
+[20-Nov-2024 04:43:27 Europe/Berlin] getIdByName for course: Column course_name, Value BSP, Result: 3
+[20-Nov-2024 04:43:27 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-Electrical, Result: 7
+[20-Nov-2024 05:01:55 Europe/Berlin] POST request received: Array
+(
+    [admin_id] => 1
+    [title] => /".,[]{}\|--_++=!@#$%^&*()~
+    [description] => /".,[]{}\|--_++=!@#$%^&*()~
+
+    [year_level] => Array
+        (
+            [0] => 1st Year
+            [1] => 2nd Year
+            [2] => 3rd Year
+            [3] => 4th Year
+        )
+
+    [department] => Array
+        (
+            [0] => CIT
+            [1] => CE
+        )
+
+    [course] => Array
+        (
+            [0] => BSMA
+            [1] => BAC
+            [2] => BSIT-Electrical
+            [3] => BSIT-Electronic
+            [4] => BSIT-ICT
+        )
+
+)
+
+[20-Nov-2024 05:01:55 Europe/Berlin] FILES received: Array
+(
+    [image] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[20-Nov-2024 05:02:08 Europe/Berlin] POST request received: Array
+(
+    [admin_id] => 1
+    [title] => /".,[]{}\|--_++=!@#$%^&*()~
+    [description] => /".,[]{}\|--_++=!@#$%^&*()~
+
+    [year_level] => Array
+        (
+            [0] => 1st Year
+            [1] => 2nd Year
+            [2] => 3rd Year
+            [3] => 4th Year
+        )
+
+    [department] => Array
+        (
+            [0] => CABE
+            [1] => CIT
+            [2] => CTE
+            [3] => CE
+        )
+
+    [course] => Array
+        (
+            [0] => BSMA
+            [1] => BAC
+            [2] => BSIE
+            [3] => BSIT-Electrical
+            [4] => BSIT-Electronic
+            [5] => BSIT-ICT
+        )
+
+)
+
+[20-Nov-2024 05:02:08 Europe/Berlin] FILES received: Array
+(
+    [image] => Array
+        (
+            [name] => 441428381_1368130023860206_3456185180430999534_n.png
+            [full_path] => 441428381_1368130023860206_3456185180430999534_n.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php8580.tmp
+            [error] => 0
+            [size] => 2587332
+        )
+
+)
+
+[20-Nov-2024 05:02:08 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[20-Nov-2024 05:02:08 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[20-Nov-2024 05:02:09 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[20-Nov-2024 05:02:09 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[20-Nov-2024 05:02:09 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[20-Nov-2024 05:02:09 Europe/Berlin] getIdByName for department: Column department_name, Value CIT, Result: 5
+[20-Nov-2024 05:02:09 Europe/Berlin] getIdByName for department: Column department_name, Value CTE, Result: 6
+[20-Nov-2024 05:02:09 Europe/Berlin] getIdByName for department: Column department_name, Value CE, Result: 4
+[20-Nov-2024 05:02:09 Europe/Berlin] getIdByName for course: Column course_name, Value BSMA, Result: 2
+[20-Nov-2024 05:02:09 Europe/Berlin] getIdByName for course: Column course_name, Value BAC, Result: 4
+[20-Nov-2024 05:02:09 Europe/Berlin] getIdByName for course: Column course_name, Value BSIE, Result: 5
+[20-Nov-2024 05:02:09 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-Electrical, Result: 7
+[20-Nov-2024 05:02:09 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-Electronic, Result: 8
+[20-Nov-2024 05:02:09 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-ICT, Result: 9
+[20-Nov-2024 05:12:33 Europe/Berlin] sendSms not set in POST.
+[20-Nov-2024 05:12:33 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[20-Nov-2024 05:12:33 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[20-Nov-2024 05:12:33 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[20-Nov-2024 05:15:04 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[20-Nov-2024 05:15:04 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[20-Nov-2024 05:15:04 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[20-Nov-2024 05:15:04 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 111
+            [contact_number] => +639635242249
+        )
+
+)
+
+[20-Nov-2024 05:15:04 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 111
+            [contact_number] => +639635242249
+        )
+
+)
+
+[20-Nov-2024 05:15:06 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4320761099824335352724","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[20-Nov-2024 05:15:06 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[20-Nov-2024 05:15:06 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[20-Nov-2024 05:15:06 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[20-Nov-2024 05:21:31 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[20-Nov-2024 05:21:31 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[20-Nov-2024 05:21:31 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[20-Nov-2024 05:21:31 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 111
+            [contact_number] => +639635242249
+        )
+
+)
+
+[20-Nov-2024 05:21:31 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 111
+            [contact_number] => +639635242249
+        )
+
+)
+
+[20-Nov-2024 05:21:33 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4320764966844335644698","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[20-Nov-2024 05:21:33 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[20-Nov-2024 05:21:33 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[20-Nov-2024 05:21:33 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[20-Nov-2024 05:29:50 Europe/Berlin] sendSms not set in POST.
+[20-Nov-2024 05:29:50 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[20-Nov-2024 05:29:50 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[20-Nov-2024 05:29:50 Europe/Berlin] getIdByName for department: Column department_name, Value CTE, Result: 6
+[20-Nov-2024 05:29:50 Europe/Berlin] getIdByName for course: Column course_name, Value BSP, Result: 3
+[20-Nov-2024 05:29:50 Europe/Berlin] getIdByName for course: Column course_name, Value BSIE, Result: 5
+[20-Nov-2024 11:50:30 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[20-Nov-2024 11:50:30 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[20-Nov-2024 11:50:30 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[20-Nov-2024 11:50:30 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 289
+            [contact_number] => +639635242249
+        )
+
+)
+
+[20-Nov-2024 11:50:30 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 289
+            [contact_number] => +639635242249
+        )
+
+)
+
+[20-Nov-2024 11:50:33 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4320998342024335804842","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[20-Nov-2024 11:50:33 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[20-Nov-2024 11:50:33 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[20-Nov-2024 11:50:33 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[20-Nov-2024 12:12:52 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[20-Nov-2024 12:12:52 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[20-Nov-2024 12:12:52 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[20-Nov-2024 12:12:52 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 318
+            [contact_number] => +639635242249
+        )
+
+)
+
+[20-Nov-2024 12:12:52 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 318
+            [contact_number] => +639635242249
+        )
+
+)
+
+[20-Nov-2024 12:12:54 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4321011750114335684869","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[20-Nov-2024 12:12:54 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[20-Nov-2024 12:12:54 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[20-Nov-2024 12:12:54 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[20-Nov-2024 12:14:05 Europe/Berlin] sendSms not set in POST.
+[20-Nov-2024 12:14:05 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[20-Nov-2024 12:14:05 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[20-Nov-2024 12:14:05 Europe/Berlin] getIdByName for course: Column course_name, Value BSE, Result: 11
+[20-Nov-2024 12:33:01 Europe/Berlin] sendSms not set in POST.
+[21-Nov-2024 13:35:07 Europe/Berlin] sendSms not set in POST.
+[21-Nov-2024 16:25:55 Europe/Berlin] sendSms not set in POST.
+[21-Nov-2024 16:25:55 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[21-Nov-2024 16:25:55 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 
+[21-Nov-2024 16:25:55 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[21-Nov-2024 16:27:32 Europe/Berlin] sendSms not set in POST.
+[21-Nov-2024 16:27:32 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[21-Nov-2024 16:27:32 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[21-Nov-2024 16:27:32 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[22-Nov-2024 04:02:24 Europe/Berlin] PHP Warning:  Undefined variable $stmt in C:\xampp\htdocs\cursors\ISMS2-cursor\admin\features\upload.php on line 72
+[22-Nov-2024 04:02:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\cursors\ISMS2-cursor\admin\features\upload.php:72
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\cursors\ISMS2-cursor\admin\features\upload.php on line 72
+[22-Nov-2024 04:04:26 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 05:27:01 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 05:29:31 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 05:33:37 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 05:35:40 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 05:36:42 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 05:38:49 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 05:41:23 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 05:42:54 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 05:43:13 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 05:44:10 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 05:45:18 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 05:46:51 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 05:48:05 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 05:48:47 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 07:11:39 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 07:18:39 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 07:18:39 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 07:21:04 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 07:21:04 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 07:21:04 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 
+[22-Nov-2024 07:21:04 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[22-Nov-2024 07:26:24 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 07:26:24 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 07:26:24 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 
+[22-Nov-2024 07:26:24 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[22-Nov-2024 07:41:46 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 07:41:46 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 07:41:46 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 
+[22-Nov-2024 07:41:46 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[22-Nov-2024 07:43:57 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 07:43:57 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 07:43:57 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 
+[22-Nov-2024 07:43:57 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[22-Nov-2024 07:45:03 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 07:45:03 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 07:45:03 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 
+[22-Nov-2024 07:45:03 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[22-Nov-2024 07:46:01 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 07:46:01 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 07:46:01 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[22-Nov-2024 07:46:01 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[22-Nov-2024 07:46:01 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[22-Nov-2024 08:20:14 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 08:20:14 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 08:21:17 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 08:21:17 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 08:21:17 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 
+[22-Nov-2024 08:21:17 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[22-Nov-2024 08:26:12 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 08:26:12 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 08:26:12 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 
+[22-Nov-2024 10:06:54 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 10:06:54 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 
+[22-Nov-2024 10:06:54 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[22-Nov-2024 10:08:18 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 10:08:18 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[22-Nov-2024 10:12:29 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 10:12:29 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 10:12:29 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[22-Nov-2024 10:12:29 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[22-Nov-2024 11:09:35 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 11:10:05 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 11:10:05 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 11:10:05 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[22-Nov-2024 11:10:05 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[22-Nov-2024 11:10:28 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 11:10:28 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 15:07:26 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 15:07:26 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 15:47:16 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 15:47:16 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[22-Nov-2024 16:58:51 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 16:58:51 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[22-Nov-2024 16:58:51 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[22-Nov-2024 16:58:51 Europe/Berlin] getIdByName for course: Column course_name, Value BSMA, Result: 2
+[22-Nov-2024 16:59:56 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 16:59:56 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[22-Nov-2024 16:59:56 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[22-Nov-2024 16:59:56 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[22-Nov-2024 17:01:35 Europe/Berlin] sendSms not set in POST.
+[22-Nov-2024 17:01:35 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[23-Nov-2024 06:58:16 Europe/Berlin] sendSms not set in POST.
+[23-Nov-2024 06:58:16 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[23-Nov-2024 06:58:16 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[23-Nov-2024 06:58:16 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[23-Nov-2024 06:58:16 Europe/Berlin] getIdByName for department: Column department_name, Value CAS, Result: 3
+[23-Nov-2024 06:58:16 Europe/Berlin] getIdByName for department: Column department_name, Value CIT, Result: 5
+[23-Nov-2024 06:58:16 Europe/Berlin] getIdByName for department: Column department_name, Value CTE, Result: 6
+[23-Nov-2024 06:58:16 Europe/Berlin] getIdByName for department: Column department_name, Value CE, Result: 4
+[23-Nov-2024 06:58:16 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[23-Nov-2024 07:00:46 Europe/Berlin] sendSms not set in POST.
+[23-Nov-2024 07:00:46 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[23-Nov-2024 07:00:46 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[23-Nov-2024 07:00:46 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[23-Nov-2024 12:10:09 Europe/Berlin] sendSms not set in POST.
+[23-Nov-2024 12:10:09 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[23-Nov-2024 12:10:09 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[23-Nov-2024 12:10:09 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[23-Nov-2024 12:17:18 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[23-Nov-2024 15:15:39 Europe/Berlin] sendSms not set in POST.
+[23-Nov-2024 15:15:39 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[23-Nov-2024 15:15:39 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[23-Nov-2024 15:15:39 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[24-Nov-2024 08:10:04 Europe/Berlin] sendSms not set in POST.
+[24-Nov-2024 08:10:04 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[24-Nov-2024 08:10:04 Europe/Berlin] getIdByName for department: Column department_name, Value CAS, Result: 3
+[24-Nov-2024 08:10:04 Europe/Berlin] getIdByName for course: Column course_name, Value BSMA, Result: 2
+[24-Nov-2024 08:10:04 Europe/Berlin] getIdByName for course: Column course_name, Value BSP, Result: 3
+[24-Nov-2024 11:00:42 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[24-Nov-2024 11:00:42 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[24-Nov-2024 11:00:42 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[24-Nov-2024 11:00:42 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 1
+            [contact_number] => 1231231234
+        )
+
+)
+
+[24-Nov-2024 11:00:42 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 1
+            [contact_number] => 1231231234
+        )
+
+)
+
+[24-Nov-2024 11:00:44 Europe/Berlin] Sent SMS to 1231231234: {"messages":[{"messageId":"4324424427894335216470","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"1231231234"}]}
+[24-Nov-2024 11:00:44 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[24-Nov-2024 11:00:44 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[24-Nov-2024 11:00:44 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[24-Nov-2024 11:02:37 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[24-Nov-2024 11:02:37 Europe/Berlin] getIdByName for department: Column department_name, Value CE, Result: 4
+[24-Nov-2024 11:02:37 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-Electrical, Result: 7
+[24-Nov-2024 11:02:37 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639050757043
+        )
+
+)
+
+[24-Nov-2024 11:02:37 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639050757043
+        )
+
+)
+
+[24-Nov-2024 11:02:39 Europe/Berlin] Sent SMS to +639050757043: {"messages":[{"messageId":"4324425578284335220261","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639050757043"}]}
+[24-Nov-2024 11:10:55 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[24-Nov-2024 11:10:55 Europe/Berlin] getIdByName for department: Column department_name, Value CE, Result: 4
+[24-Nov-2024 11:10:55 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-Electrical, Result: 7
+[24-Nov-2024 11:10:55 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639050757043
+        )
+
+)
+
+[24-Nov-2024 11:10:55 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639050757043
+        )
+
+)
+
+[24-Nov-2024 11:10:57 Europe/Berlin] Sent SMS to +639050757043: {"messages":[{"messageId":"4324430552614335863647","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639050757043"}]}
+[24-Nov-2024 11:10:57 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[24-Nov-2024 11:10:57 Europe/Berlin] getIdByName for department: Column department_name, Value CE, Result: 4
+[24-Nov-2024 11:10:57 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-Electrical, Result: 7
+[24-Nov-2024 11:14:04 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[24-Nov-2024 11:14:04 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[24-Nov-2024 11:14:04 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[24-Nov-2024 11:14:04 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 5
+            [contact_number] => +639635242249
+        )
+
+)
+
+[24-Nov-2024 11:14:04 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 5
+            [contact_number] => +639635242249
+        )
+
+)
+
+[24-Nov-2024 11:14:07 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4324432450994335867325","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[24-Nov-2024 11:14:07 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[24-Nov-2024 11:14:07 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[24-Nov-2024 11:14:07 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[25-Nov-2024 09:44:17 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[25-Nov-2024 09:44:17 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[25-Nov-2024 09:44:17 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[25-Nov-2024 09:44:17 Europe/Berlin] getIdByName for course: Column course_name, Value BSMA, Result: 2
+[25-Nov-2024 09:44:17 Europe/Berlin] Result: Array
+(
+)
+
+[25-Nov-2024 09:44:17 Europe/Berlin] Students fetched: Array
+(
+)
+
+[25-Nov-2024 09:44:17 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[25-Nov-2024 09:44:17 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[25-Nov-2024 09:44:17 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[25-Nov-2024 09:44:17 Europe/Berlin] getIdByName for course: Column course_name, Value BSMA, Result: 2
+[25-Nov-2024 09:45:00 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[25-Nov-2024 09:45:00 Europe/Berlin] getIdByName for department: Column department_name, Value CE, Result: 4
+[25-Nov-2024 09:45:00 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-Electrical, Result: 7
+[25-Nov-2024 09:45:00 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639050757043
+        )
+
+)
+
+[25-Nov-2024 09:45:00 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639050757043
+        )
+
+)
+
+[25-Nov-2024 09:45:02 Europe/Berlin] Sent SMS to +639050757043: {"messages":[{"messageId":"4325243012904335902145","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639050757043"}]}
+[25-Nov-2024 09:45:02 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[25-Nov-2024 09:45:02 Europe/Berlin] getIdByName for department: Column department_name, Value CE, Result: 4
+[25-Nov-2024 09:45:02 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-Electrical, Result: 7
+[25-Nov-2024 10:15:08 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[25-Nov-2024 10:15:08 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[25-Nov-2024 10:15:08 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[25-Nov-2024 10:15:08 Europe/Berlin] Result: Array
+(
+)
+
+[25-Nov-2024 10:15:08 Europe/Berlin] Students fetched: Array
+(
+)
+
+[25-Nov-2024 10:15:08 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[25-Nov-2024 10:15:08 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[25-Nov-2024 10:15:08 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[25-Nov-2024 10:15:30 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[25-Nov-2024 10:15:30 Europe/Berlin] getIdByName for department: Column department_name, Value CE, Result: 4
+[25-Nov-2024 10:15:30 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-Electrical, Result: 7
+[25-Nov-2024 10:15:30 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639050757043
+        )
+
+)
+
+[25-Nov-2024 10:15:30 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 4
+            [contact_number] => +639050757043
+        )
+
+)
+
+[25-Nov-2024 10:15:32 Europe/Berlin] Sent SMS to +639050757043: {"messages":[{"messageId":"4325261315154335878737","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639050757043"}]}
+[25-Nov-2024 10:15:32 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[25-Nov-2024 10:15:32 Europe/Berlin] getIdByName for department: Column department_name, Value CE, Result: 4
+[25-Nov-2024 10:15:32 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-Electrical, Result: 7
+[25-Nov-2024 11:31:03 Europe/Berlin] sendSms not set in POST.
+[25-Nov-2024 11:31:03 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[25-Nov-2024 11:31:03 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[25-Nov-2024 11:31:03 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[25-Nov-2024 13:30:17 Europe/Berlin] sendSms not set in POST.
+[25-Nov-2024 13:30:17 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[25-Nov-2024 13:30:17 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[25-Nov-2024 13:30:17 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[26-Nov-2024 02:09:35 Europe/Berlin] sendSms not set in POST.
+[26-Nov-2024 02:09:35 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[26-Nov-2024 02:09:35 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[26-Nov-2024 02:09:35 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[26-Nov-2024 02:12:01 Europe/Berlin] sendSms not set in POST.
+[26-Nov-2024 02:12:01 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[26-Nov-2024 02:12:01 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[26-Nov-2024 02:12:01 Europe/Berlin] getIdByName for course: Column course_name, Value BSMA, Result: 2
+[26-Nov-2024 06:02:05 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[26-Nov-2024 06:02:05 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[26-Nov-2024 06:02:05 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[26-Nov-2024 06:02:05 Europe/Berlin] Result: Array
+(
+)
+
+[26-Nov-2024 06:02:05 Europe/Berlin] Students fetched: Array
+(
+)
+
+[26-Nov-2024 06:02:05 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[26-Nov-2024 06:02:05 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[26-Nov-2024 06:02:05 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[26-Nov-2024 06:03:35 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[26-Nov-2024 06:03:35 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[26-Nov-2024 06:03:35 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[26-Nov-2024 06:03:35 Europe/Berlin] Result: Array
+(
+)
+
+[26-Nov-2024 06:03:35 Europe/Berlin] Students fetched: Array
+(
+)
+
+[26-Nov-2024 06:03:35 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[26-Nov-2024 06:03:35 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[26-Nov-2024 06:03:35 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[26-Nov-2024 06:07:24 Europe/Berlin] sendSms not set in POST.
+[26-Nov-2024 06:07:24 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[26-Nov-2024 06:07:24 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[26-Nov-2024 06:07:24 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[26-Nov-2024 06:08:02 Europe/Berlin] sendSms not set in POST.
+[26-Nov-2024 06:08:02 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[26-Nov-2024 06:08:02 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[26-Nov-2024 06:08:02 Europe/Berlin] getIdByName for course: Column course_name, Value BSMA, Result: 2
+[26-Nov-2024 14:44:42 Europe/Berlin] sendSms not set in POST.
+[26-Nov-2024 14:44:42 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[26-Nov-2024 14:44:42 Europe/Berlin] getIdByName for department: Column department_name, Value CTE, Result: 6
+[26-Nov-2024 14:44:42 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-ICT, Result: 9
+[26-Nov-2024 16:25:43 Europe/Berlin] sendSms not set in POST.
+[26-Nov-2024 16:25:43 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[26-Nov-2024 16:25:43 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[26-Nov-2024 16:25:43 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[26-Nov-2024 16:36:38 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[26-Nov-2024 16:36:38 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[26-Nov-2024 16:36:38 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[26-Nov-2024 16:36:38 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 464
+            [contact_number] => +639635242249
+        )
+
+)
+
+[26-Nov-2024 16:36:38 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 464
+            [contact_number] => +639635242249
+        )
+
+)
+
+[26-Nov-2024 16:36:40 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4326354005814335285543","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[26-Nov-2024 16:36:40 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[26-Nov-2024 16:36:40 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[26-Nov-2024 16:36:40 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[26-Nov-2024 17:53:27 Europe/Berlin] sendSms not set in POST.
+[26-Nov-2024 17:53:27 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[26-Nov-2024 17:53:27 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[26-Nov-2024 17:53:27 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[27-Nov-2024 00:01:44 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[27-Nov-2024 00:01:44 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[27-Nov-2024 00:01:44 Europe/Berlin] getIdByName for course: Column course_name, Value BSMA, Result: 2
+[27-Nov-2024 00:01:44 Europe/Berlin] Result: Array
+(
+)
+
+[27-Nov-2024 00:01:44 Europe/Berlin] Students fetched: Array
+(
+)
+
+[27-Nov-2024 00:01:44 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[27-Nov-2024 00:01:44 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[27-Nov-2024 00:01:44 Europe/Berlin] getIdByName for course: Column course_name, Value BSMA, Result: 2
+[27-Nov-2024 00:11:44 Europe/Berlin] sendSms not set in POST.
+[27-Nov-2024 00:11:44 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[27-Nov-2024 00:11:44 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[27-Nov-2024 00:11:44 Europe/Berlin] getIdByName for course: Column course_name, Value BSMA, Result: 2
+[27-Nov-2024 02:47:41 Europe/Berlin] sendSms not set in POST.
+[27-Nov-2024 02:47:41 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[27-Nov-2024 02:47:41 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[27-Nov-2024 02:47:41 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[27-Nov-2024 02:48:14 Europe/Berlin] sendSms not set in POST.
+[27-Nov-2024 02:48:14 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[27-Nov-2024 02:49:37 Europe/Berlin] sendSms not set in POST.
+[27-Nov-2024 02:49:37 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[27-Nov-2024 04:12:59 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[27-Nov-2024 04:12:59 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[27-Nov-2024 04:12:59 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[27-Nov-2024 04:12:59 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 30
+            [contact_number] => +639635242249
+        )
+
+)
+
+[27-Nov-2024 04:12:59 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 30
+            [contact_number] => +639635242249
+        )
+
+)
+
+[27-Nov-2024 04:13:07 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4326771873404335589167","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[27-Nov-2024 04:13:07 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[27-Nov-2024 04:13:07 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[27-Nov-2024 04:13:07 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[27-Nov-2024 08:18:40 Europe/Berlin] sendSms not set in POST.
+[27-Nov-2024 08:18:40 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[27-Nov-2024 08:18:40 Europe/Berlin] getIdByName for department: Column department_name, Value CE, Result: 4
+[27-Nov-2024 08:18:40 Europe/Berlin] getIdByName for course: Column course_name, Value BSIE, Result: 5
+[27-Nov-2024 08:21:51 Europe/Berlin] sendSms not set in POST.
+[27-Nov-2024 08:21:51 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[27-Nov-2024 08:22:01 Europe/Berlin] sendSms not set in POST.
+[27-Nov-2024 08:22:01 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[27-Nov-2024 08:22:14 Europe/Berlin] sendSms not set in POST.
+[27-Nov-2024 08:22:14 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[27-Nov-2024 08:34:00 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[27-Nov-2024 08:34:00 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[27-Nov-2024 08:34:00 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[27-Nov-2024 08:34:00 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 30
+            [contact_number] => +639635242249
+        )
+
+)
+
+[27-Nov-2024 08:34:00 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 30
+            [contact_number] => +639635242249
+        )
+
+)
+
+[27-Nov-2024 08:34:02 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4326928422654335880147","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[27-Nov-2024 08:34:02 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[27-Nov-2024 08:34:02 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[27-Nov-2024 08:34:02 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[27-Nov-2024 08:40:27 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[27-Nov-2024 08:40:27 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[27-Nov-2024 08:40:27 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[27-Nov-2024 08:40:27 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 30
+            [contact_number] => +636978976857
+        )
+
+)
+
+[27-Nov-2024 08:40:27 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 30
+            [contact_number] => +636978976857
+        )
+
+)
+
+[27-Nov-2024 08:40:29 Europe/Berlin] Sent SMS to +636978976857: {"messages":[{"messageId":"4326932289804335712014","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+636978976857"}]}
+[27-Nov-2024 08:40:29 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[27-Nov-2024 08:40:29 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[27-Nov-2024 08:40:29 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[01-Dec-2024 12:16:53 Europe/Berlin] sendSms not set in POST.
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for department: Column department_name, Value CABE, Result: 2
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for department: Column department_name, Value CAS, Result: 3
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for department: Column department_name, Value CIT, Result: 5
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for department: Column department_name, Value CTE, Result: 6
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for department: Column department_name, Value CE, Result: 4
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for course: Column course_name, Value BSMA, Result: 2
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for course: Column course_name, Value BSP, Result: 3
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for course: Column course_name, Value BAC, Result: 4
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for course: Column course_name, Value BSIE, Result: 5
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-CE, Result: 6
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-Electrical, Result: 7
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-Electronic, Result: 8
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT-ICT, Result: 9
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[01-Dec-2024 12:16:53 Europe/Berlin] getIdByName for course: Column course_name, Value BSE, Result: 11
+[01-Dec-2024 12:35:50 Europe/Berlin] sendSms not set in POST.
+[01-Dec-2024 12:35:50 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 12:59:21 Europe/Berlin] sendSms not set in POST.
+[01-Dec-2024 12:59:21 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 12:59:21 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[01-Dec-2024 12:59:21 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[01-Dec-2024 12:59:21 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[01-Dec-2024 13:05:04 Europe/Berlin] sendSms not set in POST.
+[01-Dec-2024 13:05:04 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:09:57 Europe/Berlin] sendSms not set in POST.
+[01-Dec-2024 13:09:57 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:15:02 Europe/Berlin] sendSms not set in POST.
+[01-Dec-2024 13:15:02 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:15:02 Europe/Berlin] getIdByName for year_level: Column year_level, Value 2nd Year, Result: 2
+[01-Dec-2024 13:15:02 Europe/Berlin] getIdByName for year_level: Column year_level, Value 3rd Year, Result: 3
+[01-Dec-2024 13:15:02 Europe/Berlin] getIdByName for year_level: Column year_level, Value 4th Year, Result: 4
+[01-Dec-2024 13:28:34 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:28:34 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 13:28:34 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[01-Dec-2024 13:28:34 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 39
+            [contact_number] => +639635242249
+
+        )
+
+)
+
+[01-Dec-2024 13:28:34 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 39
+            [contact_number] => +639635242249
+
+        )
+
+)
+
+[01-Dec-2024 13:28:36 Europe/Berlin] Sent SMS to +639635242249
+: {"messages":[{"messageId":"4330561167784335533635","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249\n"}]}
+[01-Dec-2024 13:28:36 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:28:36 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 13:28:36 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[01-Dec-2024 13:28:36 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:28:36 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 13:28:36 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[01-Dec-2024 13:28:36 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 39
+            [contact_number] => +639635242249
+
+        )
+
+)
+
+[01-Dec-2024 13:28:36 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 39
+            [contact_number] => +639635242249
+
+        )
+
+)
+
+[01-Dec-2024 13:28:38 Europe/Berlin] Sent SMS to +639635242249
+: {"messages":[{"messageId":"4330561185754335720868","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249\n"}]}
+[01-Dec-2024 13:28:38 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:28:38 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 13:28:38 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[01-Dec-2024 13:35:02 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:35:02 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 13:35:02 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[01-Dec-2024 13:35:02 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 39
+            [contact_number] => +639635242249
+
+        )
+
+)
+
+[01-Dec-2024 13:35:02 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 39
+            [contact_number] => +639635242249
+
+        )
+
+)
+
+[01-Dec-2024 13:35:04 Europe/Berlin] Sent SMS to +639635242249
+: {"messages":[{"messageId":"4330565045174335426278","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249\n"}]}
+[01-Dec-2024 13:35:04 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:35:04 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 13:35:04 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[01-Dec-2024 13:36:13 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:36:13 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 13:36:13 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[01-Dec-2024 13:36:13 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 39
+            [contact_number] => +639635242249
+
+        )
+
+)
+
+[01-Dec-2024 13:36:13 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 39
+            [contact_number] => +639635242249
+
+        )
+
+)
+
+[01-Dec-2024 13:36:15 Europe/Berlin] Sent SMS to +639635242249
+: {"messages":[{"messageId":"4330565759324335548896","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249\n"}]}
+[01-Dec-2024 13:36:15 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:36:15 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 13:36:15 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[01-Dec-2024 13:38:36 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:38:36 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 13:38:36 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[01-Dec-2024 13:38:36 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 39
+            [contact_number] => +639635242249
+
+        )
+
+)
+
+[01-Dec-2024 13:38:36 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 39
+            [contact_number] => +639635242249
+
+        )
+
+)
+
+[01-Dec-2024 13:38:38 Europe/Berlin] Sent SMS to +639635242249
+: {"messages":[{"messageId":"4330567192404335552902","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249\n"}]}
+[01-Dec-2024 13:38:38 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:38:38 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 13:38:38 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[01-Dec-2024 13:39:55 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:39:55 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 13:39:55 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[01-Dec-2024 13:39:55 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 39
+            [contact_number] => +639635242249
+
+        )
+
+)
+
+[01-Dec-2024 13:39:55 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 39
+            [contact_number] => +639635242249
+
+        )
+
+)
+
+[01-Dec-2024 13:39:57 Europe/Berlin] Sent SMS to +639635242249
+: {"messages":[{"messageId":"4330567979194335398593","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249\n"}]}
+[01-Dec-2024 13:39:57 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:39:57 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 13:39:57 Europe/Berlin] getIdByName for course: Column course_name, Value BSBA, Result: 1
+[01-Dec-2024 13:58:20 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:58:20 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 13:58:20 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10
+[01-Dec-2024 13:58:20 Europe/Berlin] Result: Array
+(
+    [0] => Array
+        (
+            [student_id] => 40
+            [contact_number] => +639635242249
+        )
+
+)
+
+[01-Dec-2024 13:58:20 Europe/Berlin] Students fetched: Array
+(
+    [0] => Array
+        (
+            [student_id] => 40
+            [contact_number] => +639635242249
+        )
+
+)
+
+[01-Dec-2024 13:58:22 Europe/Berlin] Sent SMS to +639635242249: {"messages":[{"messageId":"4330579024944335770114","status":{"description":"Message sent to next instance","groupId":1,"groupName":"PENDING","id":26,"name":"PENDING_ACCEPTED"},"to":"+639635242249"}]}
+[01-Dec-2024 13:58:22 Europe/Berlin] getIdByName for year_level: Column year_level, Value 1st Year, Result: 1
+[01-Dec-2024 13:58:22 Europe/Berlin] getIdByName for department: Column department_name, Value CICS, Result: 1
+[01-Dec-2024 13:58:22 Europe/Berlin] getIdByName for course: Column course_name, Value BSIT, Result: 10

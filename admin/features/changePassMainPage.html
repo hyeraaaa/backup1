@@ -1,0 +1,231 @@
+<!-- Change Password Modal -->
+<div class="modal fade" id="changePasswordModal" tabindex="-1" aria-labelledby="changePasswordModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md modal-dialog-centered">
+        <div class="modal-content shadow">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title fw-bold" id="changePasswordModalLabel">
+                    <i class="bi bi-shield-lock me-2"></i>Change Password
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body px-4 py-4">
+                <form id="changePasswordForm">
+                    <div class="mb-4">
+                        <label for="currentPassword" class="form-label fw-semibold">Current Password</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light">
+                                <i class="bi bi-key"></i>
+                            </span>
+                            <input type="password" class="form-control border-start-0" id="currentPassword" name="currentPassword" required>
+                            <span class="input-group-text bg-light toggle-password" style="cursor: pointer;" data-target="currentPassword">
+                                <i class="bi bi-eye-slash"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label for="newPassword" class="form-label fw-semibold">New Password</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light">
+                                <i class="bi bi-lock"></i>
+                            </span>
+                            <input type="password" class="form-control border-start-0" id="newPassword" name="newPassword" required>
+                            <span class="input-group-text bg-light toggle-password" style="cursor: pointer;" data-target="newPassword">
+                                <i class="bi bi-eye-slash"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label for="confirmPassword" class="form-label fw-semibold">Confirm New Password</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light">
+                                <i class="bi bi-lock-fill"></i>
+                            </span>
+                            <input type="password" class="form-control border-start-0" id="confirmPassword" name="confirmPassword" required>
+                            <span class="input-group-text bg-light toggle-password" style="cursor: pointer;" data-target="confirmPassword">
+                                <i class="bi bi-eye-slash"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="text-danger small" id="errorMessage"></div>
+                    <div class="text-success small" id="successMessage"></div>
+                    <div id="countdownMessage" class="text-success small" style="display: none;"></div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+                    <i class="bi bi-x-circle me-2"></i>Cancel
+                </button>
+                <button type="submit" form="changePasswordForm" class="btn btn-danger">
+                    <i class="bi bi-check2-circle me-1"></i>Change Password
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Change Profile-->
+<div class="modal fade" id="changeProfilePictureModal" tabindex="-1" aria-labelledby="changeProfilePictureModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content shadow">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title fw-bold" id="changeProfilePictureModalLabel">
+                    <i class="bi bi-person-circle me-2"></i>Change Profile Picture
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <form id="changeProfilePictureForm" enctype="multipart/form-data">
+                    <div class="upload-container mb-4">
+                        <div class="upload-image-container d-flex flex-column align-items-center justify-content-center bg-light rounded-3 position-relative" style="height: 300px; border: 2px dashed #ccc;">
+                            <!-- Preview Container -->
+                            <div class="preview-area w-100 h-100 d-flex align-items-center justify-content-center">
+                                <img id="image-preview" src="#" alt="Preview" class="img-fluid rounded-3" style="display: none; max-height: 100%; object-fit: cover;">
+                                <!-- Upload Interface -->
+                                <div id="upload-interface" class="text-center">
+                                    <i class="bi bi-cloud-arrow-up display-4 text-muted"></i>
+                                    <p class="mt-3 mb-1 text-muted">Drag & Drop your image here</p>
+                                    <p class="small text-muted mb-3">or</p>
+                                    <button type="button" class="btn btn-danger btn-sm" id="file-upload-btn">
+                                        <i class="bi bi-folder me-2"></i>Browse Files
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Delete Button -->
+                            <button type="button" class="btn btn-danger btn-sm position-absolute top-0 end-0 m-2" id="delete-image" style="display: none;">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                            <input type="file" class="d-none" id="profilePicture" name="profile_picture" accept="image/*">
+                        </div>
+                        <div class="small text-muted mt-2">
+                            <i class="bi bi-info-circle me-1"></i>
+                            Allowed formats: JPG, PNG, GIF. Max size: 2MB.
+                        </div>
+                        <div class="text-danger small mt-2" id="profileErrorMessage"></div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+                    <i class="bi bi-x-circle me-1"></i>Cancel
+                </button>
+                <button type="submit" form="changeProfilePictureForm" class="btn btn-danger">
+                    <i class="bi bi-check2-circle me-1"></i>Save Changes
+                </button>
+            </div>
+
+        </div>
+    </div>
+    
+</div>
+
+
+<script>        
+
+    document.getElementById('changePasswordForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+    
+        const currentPassword = document.getElementById('currentPassword').value;
+        const newPassword = document.getElementById('newPassword').value;
+        const confirmPassword = document.getElementById('confirmPassword').value;
+    
+        // Validate the new password
+        if (!isValidPassword(newPassword)) {
+            document.getElementById('errorMessage').textContent = "New password must be at least 6 characters long, contain at least one uppercase letter and one number.";
+            return;
+        }
+    
+        if (newPassword !== confirmPassword) {
+            document.getElementById('errorMessage').textContent = "New passwords do not match.";
+            return;
+        }
+    
+        // Send the data to the server
+        fetch('features/change_password.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                currentPassword: currentPassword,
+                newPassword: newPassword
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            const errorMessage = document.getElementById('errorMessage');
+            const successMessage = document.getElementById('successMessage');
+            const countdownMessage = document.getElementById('countdownMessage');
+    
+            if (data.success) {
+                successMessage.textContent = "Password changed successfully!";
+                errorMessage.textContent = "";
+                countdownMessage.style.display = 'block'; // Show countdown message
+                startCountdown(5); // Start countdown for 5 seconds
+                document.getElementById('changePasswordForm').reset(); // Reset the form
+            } else {
+                errorMessage.textContent = data.message;
+                successMessage.textContent = "";
+                countdownMessage.style.display = 'none'; // Hide countdown message
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('errorMessage').textContent = "An error occurred. Please try again.";
+        });
+    });
+    
+    function isValidPassword(password) {
+        const minLength = 6;
+        const hasUpperCase = /[A-Z]/ .test(password);
+        const hasNumber = /\d/.test(password);
+        const isLongEnough = password.length >= minLength;
+    
+        return hasUpperCase && hasNumber && isLongEnough;
+    }
+    
+    function startCountdown(seconds) {
+        let countdown = seconds;
+        const countdownMessage = document.getElementById('countdownMessage');
+        countdownMessage.innerText = `You will be logged out in ${countdown} seconds.`;
+    
+        const interval = setInterval(() => {
+            countdown--;
+            countdownMessage.innerText = `You will be logged out in ${countdown} seconds.`;
+    
+            if (countdown <= 0) {
+                clearInterval(interval);
+                // Log out the user (this can be a redirect or an API call)
+                window.location.href = '../login/logout.php'; // Redirect to logout script
+            }
+        }, 1000);
+    }
+
+    //For Changing Profile Pic
+    document.getElementById('changeProfilePictureForm').addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        const formData = new FormData(this); // Create a FormData object from the form
+
+        // Send the data to the server using fetch
+        fetch('features/upload_profile_picture.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            const errorMessage = document.getElementById('profileErrorMessage');
+
+            if (data.success) {
+                // Show success alert and reload the page after confirmation
+                alert("Profile picture changed successfully!");
+                location.reload(); // Reload the page
+            } else {
+                errorMessage.textContent = data.message;
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('profileErrorMessage').textContent = "An error occurred. Please try again.";
+        });
+    });
+</script>

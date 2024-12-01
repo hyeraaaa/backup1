@@ -1,0 +1,96 @@
+/* Sidebar Styles */
+.sidebar {
+    width: 250px; /* Width of the sidebar when expanded */
+    transition: width 0.3s ease; /* Smooth transition for width */
+    background-color: #f8f9fa; /* Background color of the sidebar */
+    height: 100vh; /* Full height */
+    position: fixed; /* Fixed position */
+    overflow: hidden; /* Hide overflow */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.sidebar.collapsed {
+    width: 50px; /* Width of the sidebar when collapsed */
+}
+
+.sidebar .nav {
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.sidebar.collapsed .nav {
+    opacity: 0; /* Hide nav items when collapsed */
+}
+
+.sidebar.collapsed .nav-item {
+    display: none; /* Prevent nav items from taking space */
+}
+
+.sidebar .nav-item {
+    display: block; /* Ensure nav items are displayed normally */
+}
+
+.sidebar .nav-item a {
+    padding: 15px 20px; /* Padding for nav items */
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text color */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.sidebar .nav-item a:hover {
+    background-color: #e2e6ea; /* Background color on hover */
+}
+
+.sidebar .btn-toggle {
+    background: none; /* Remove default button styling */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 10px; /* Padding for the button */
+    transition: transform 0.3s ease; /* Smooth transition for button rotation */
+}
+
+.sidebar.collapsed .btn-toggle {
+    transform: rotate(180deg); /* Rotate the toggle button when collapsed */
+}
+
+/* Stats Card Styles */
+.stats-card {
+    margin: 10px; /* Margin for stats cards */
+    background-color: #fff; /* Background color for cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Padding inside cards */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.stats-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.stats-icon {
+    width: 40px; /* Width of the stats icon */
+    height: 40px; /* Height of the stats icon */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border-radius: 50%; /* Circular icons */
+    color: #fff; /* Icon color */
+}
+
+.bg-purple { background-color: #6f42c1; }
+.bg-blue { background-color: #007bff; }
+.bg-green { background-color: #28a745; }
+.bg-orange { background-color: #fd7e14; }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%; /* Full width on small screens */
+        height: auto; /* Auto height */
+    }
+
+    .sidebar.collapsed {
+        width: 50px; /* Keep collapsed width */
+    }
+}
